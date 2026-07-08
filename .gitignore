@@ -1,0 +1,55 @@
+# Compilados Java
+*.class
+
+# Archivos JAR, WAR, EAR
+*.jar
+*.war
+*.ear
+
+# Directorios de salida
+bin/
+build/
+target/
+out/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Configuración específica del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+
+# Java Language Server (VS Code)
+.project
+.classpath
+.settings/
+.factorypath
+
+# IntelliJ IDEA (por si se abre el proyecto ahí)
+.idea/
+*.iml
+
+# Eclipse
+.metadata/
+
+# Dependencias descargadas localmente
+lib/*.jar
